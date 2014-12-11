@@ -13,3 +13,11 @@ C:\Users\Mahesh\Desktop\RESTFulWCFService\RESTFulWCFService\bin\RESTFulWCFServic
 C:\Users\Mahesh\Desktop\RESTFulWCFService\RESTFulWCFService\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Mahesh\Desktop\RESTFulWCFService\RESTFulWCFService\obj\Debug\RESTFulWCFService.dll
 C:\Users\Mahesh\Desktop\RESTFulWCFService\RESTFulWCFService\obj\Debug\RESTFulWCFService.pdb
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\RESTFulWCFService.dll
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\RESTFulWCFService.pdb
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.dll
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.pdb
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.xml
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.csprojResolveAssemblyReference.cache
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.dll
+C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.pdb
