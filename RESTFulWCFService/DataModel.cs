@@ -23,7 +23,6 @@ namespace RESTFulWCFService
         public string Location { get; set; }
     }
 
-
     public static class EmployeeData
     {
         public static string constring = ConfigurationManager.ConnectionStrings["constring"].ConnectionString;

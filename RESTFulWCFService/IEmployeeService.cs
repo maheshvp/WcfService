@@ -26,4 +26,4 @@ namespace RESTFulWCFService
         [OperationContract]
         bool DeleteEmployee(int EmpId);
     }
-}
+} 
