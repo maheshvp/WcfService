@@ -13,11 +13,18 @@ namespace RESTFulWCFService
     public interface IEmployeeService
     {
         [OperationContract]
-        [WebGet(UriTemplate = "/GetEmployee", ResponseFormat = WebMessageFormat.Json)]
-        List<Employee> GetEmployee();
+        List<Employee> GetEmployees();
 
         [OperationContract]
-        [WebInvoke(UriTemplate = "/AddEmployee", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, Method = "POST")]
         bool AddEmployee(Employee emp);
+
+        [OperationContract]
+        Employee GetEmployee(int EmpId);
+
+        [OperationContract]
+        bool UpdateEmployee(Employee emp);
+
+        [OperationContract]
+        bool DeleteEmployee(int EmpId);
     }
 }
