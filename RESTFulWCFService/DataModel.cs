@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,86 +11,23 @@ namespace RESTFulWCFService
     [DataContract]
     public class Employee
     {
-        private int _EmpId;
-        private string _Name;
-        private int _Age;
-        private string _Designation;
-        private string _Location;
-
         [DataMember]
-        public int EmpId
-        {
-            get
-            {
-                return _EmpId;
-            }
-            set
-            {
-                _EmpId = value;
-            }
-        }
-
-
+        public int EmpId { get; set; }
         [DataMember]
-        public string Name
-        {
-            get
-            {
-                return _Name;
-            }
-            set
-            {
-                _Name = value;
-            }
-        }
-
+        public string Name { get; set; }
         [DataMember]
-        public Int32 Age
-        {
-            get
-            {
-                return _Age;
-            }
-            set
-            {
-                _Age = value;
-            }
-        }
-
-
+        public Int32 Age { get; set; }
         [DataMember]
-        public string Designation
-        {
-            get
-            {
-                return _Designation;
-            }
-            set
-            {
-                _Designation = value;
-            }
-        }
-
-
+        public string Designation { get; set; }
         [DataMember]
-        public string Location
-        {
-            get
-            {
-                return _Location;
-            }
-            set
-            {
-                _Location = value;
-            }
-        }
+        public string Location { get; set; }
     }
 
 
     public static class EmployeeData
     {
         public static string constring = ConfigurationManager.ConnectionStrings["constring"].ConnectionString;
-        public static List<Employee> GetEmployee()
+        public static List<Employee> GetEmployees()
         {
             using (SqlConnection con = new SqlConnection(constring))
             {
