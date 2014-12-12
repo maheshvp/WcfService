@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="EmployeeService.svc" />
-    <Content Include="index.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -73,13 +72,6 @@
     <Compile Include="IEmployeeService.cs" />
     <Compile Include="EmployeeService.svc.cs">
       <DependentUpon>EmployeeService.svc</DependentUpon>
-    </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,9 +5,10 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using System.Xml.Linq;
+using System.ServiceModel.Activation;
 
 namespace RESTFulWCFService
-{   
+{
     public class EmployeeService : IEmployeeService
     {
         public List<Employee> GetEmployees()

@@ -18,6 +18,5 @@ C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\RESTFulWCFServ
 C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.dll
 C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.pdb
 C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\bin\Premotion.AspNet.AppHarbor.Integration.xml
-C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.csprojResolveAssemblyReference.cache
 C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.dll
 C:\Users\Mahesh\Documents\GitHub\WcfService\RESTFulWCFService\obj\Debug\RESTFulWCFService.pdb
